@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ecommerce</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="mobnav">
+          <a href="#" class="mb-logo">ATShop</a>
+          <i class="bx bx-menu"></i>
+          <i class="bx bx-x"></i>
+            <div class="header-wrapper">
+                <div class="active">
+                    <ul class="main-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul>
+                      <ul class="user-menu">
+                        <li>
+                          <a href="#"><i class="bx bx-bell"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="bx bx-user-circle"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="bx bx-cart"></i></a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="first_navbar">
+          <a href="#" class="logo">ATShop</a>
+          <div class="search">
+            <input type="text" placeholder="Search" />
+            <i class="bx bx-search-alt"></i>
+          </div>
+          <ul class="user-menu">
+            <li>
+              <a href="#"><i class="bx bx-bell"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bx-user-circle"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bx-cart" id="bx-cart"></i></a>
+            </li>
+          </ul>
+          
+          
+
+    <!--==================== CART ====================-->
+    <div class="cart" id="cart">
+        <i class='bx bx-x cart__close' id="cart-close"></i>
+
+        <h2 class="cart__title-center">My Cart</h2>
+
+        <div class="cart__container">
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/img/featured1.png" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Jazzmaster</h3>
+                    <span class="cart__price">$1050</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus' ></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus' ></i>
+                            </span>
+                        </div>
+<div class="trashbtn" id="trashbtn">
+                        <i class='bx bx-trash-alt cart__amount-trash' onclick="trash()"></i>
+                    </div>
+                    </div>
+                </div>
+            </article>
+            
+            
+        </div>
+
+        <div class="cart__prices">
+            <span class="cart__prices-item">3 items</span>
+            <span class="cart__prices-total">$2880</span>
+        </div>
+  
+
+            <!-- <div class="produc">
+                <img src="/atshop-ecommerce-main/images/a1.png" alt="">
+                <div class="cartblock">
+                <h2>Jazz Master</h2>
+                <p>Price</p>
+                <span class="cart__amount-box">
+                    <i class='bx bx-minus' ></i>
+                </span>
+
+                <span class="cart__amount-number">1</span>
+
+                <span class="cart__amount-box">
+                    <i class='bx bx-plus' ></i>
+                </span>
+            </div> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="second_navbar">
+          <ul class="main-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="main">
+          <div class="left">
+            <h3>JBL TUNE 750TNC</h3>
+            <h2>Next-gen design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+              dolor commodi dignissimos culpa, eaque eos necessitatibus possimus
+              veniam, cupiditate rerum deleniti? Libero, ducimus error? Beatae
+              velit dolore sint explicabo! Fugit.
+            </p>
+            <button>Shop Now</button>
+          </div>
+          <div class="right">
+            <img src="img/a1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="prosheading">
+    <h1>New Arrivals</h1>
+</div>
+   <div class="probox">
+        <div class="pros">
+            <img src="img/a2.png" alt="" />
+            <div class="text">
+              <h3>Apple Smartwatch 12 White</h3>
+              <button>
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="pros">
+            <img src="img/a3.png" alt="" />
+            <div class="text">
+              <h3>Apple Smartwatch 12 Black</h3>
+              <button>
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="pros">
+            <img src="img/a1.png" alt="" />
+            <div class="text">
+              <h3>Apple Smartwatch 12 Gold</h3>
+              <button>
+                Add To Cart
+              </button>
+            </div>
+          </div>
+    </div>
+     
+    <div class="itemheading">
+        <h1>Trendy Items</h1>
+        <div class="item" id="item">        
+            <div class="products" id="products">
+                <img class="item_img" src="images/a1.png" alt="">
+                <p class="item_title">Colorful Jacket</p>
+                <p class="item_price">Price $29</p>
+                <button class='bx bx-cart-add' id="bxval" value="0" onclick="btnclk()"></button>
+            </div>
+       
+        </div></div>
+            <div class="viewall">
+                <button>View More</button>
+            </div>
+    </div>
+    
+    <div class="featureproducthead">
+        <h1>Limited In Stock</h1>
+    </div>
+    <div class="featureproduct">    
+        <img src="images/b1.png" alt="">
+        <div class="right">
+            <h1>JBL Tune 750TNC</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, delectus nisi numquam explicabo ipsa quidem necessitatibus velit corrupti id magnam!</p>
+            <button>Shop Now</button>
+        </div>
+    </div>
+    
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
